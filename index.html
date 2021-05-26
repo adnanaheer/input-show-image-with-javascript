@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="stlying">
+        <!-- actual upload which is hidden -->
+        <input type="file" id="actualBtn" hidden />
+        
+        <!-- our custom upload button -->
+        <label for="actualBtn">Choose File</label>
+        
+        <!-- name of file chosen -->
+        <span id="fileChosen">No file selected</span>
+      </div>
+      
+      <div>
+        <div>
+          <input id="file" type="file" name="filename">
+          <button type=button onclick='test()'>display</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

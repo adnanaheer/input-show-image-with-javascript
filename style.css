@@ -1,0 +1,65 @@
+@import url("https://fonts.gooogleapis.com/css?family=Roboto:wght400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+label {
+  /*   background: linear-gradient(to bottom,  #9a9a9a 50%, #b8b8b8 80%); */
+  /*  background-image: linear-gradient(to top, #161616, #484848, #808080, #bebebe, #ffffff); */
+  /*   background-image: linear-gradient(to top, #3f3f3f, #6a6a6a, #999999, #cbcbcb, #ffffff); */
+  /*   background-image: linear-gradient(to top, #3f3f3f, #636363, #8a8a8a, #b3b3b3, #dedede); */
+  /*   background-image: linear-gradient(to top, #3f3f3f, #676767, #929292, #c0c0c0, #f0f0f0); */
+  background-image: linear-gradient(
+    to top,
+    #4f4f4f,
+    #747474,
+    #9c9c9c,
+    #c5c5c5,
+    #f0f0f0
+  );
+
+  color: black;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 5px 20px;
+  font-family: sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+#file-chosen {
+  font-size: 12px;
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+
+.stlying {
+    padding: 50px;
+    min-height: 50px;
+    border: 3px solid gray;
+    border-radius: 50px;
+    background-color: darkgray;
+}
+.layout{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
